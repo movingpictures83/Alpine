@@ -1,0 +1,7 @@
+bamfile	BAM/ERR188088.bam
+preproc	RDA/preprocessedData.rda
+readlength	75
+minsize	125
+maxsize	175
+fragments	RDS/fragments.rds
+gene	ENSG00000198918

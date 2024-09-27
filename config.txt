@@ -1,0 +1,6 @@
+Prefix pipelines/Alpine/
+Plugin BuildFragments inputfile parameters/parameters.buildfrag.txt outputfile RDS/fragments.rds
+Plugin Knots inputfile parameters/parameters.knots.txt outputfile RDS/knots.rds
+Plugin PlotGC inputfile RDS/knots.rds outputfile PDF/plotGC.pdf
+Plugin VLMM inputfile parameters/parameters.vlmm.txt outputfile abundances.csv
+Plugin PredictCoverage inputfile parameters/parameters.predict.txt outputfile PDF/coverage.pdf
